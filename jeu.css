@@ -1,0 +1,69 @@
+
+body{
+    background-image: linear-gradient(rgba(236, 226, 226, 0.068),rgba(24, 23, 23, 0.5)),url("photos/r2.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#enjeu{
+    position: center;
+}
+h1{
+    margin-left: 525px;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+#number{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 15px;
+}
+#mose{
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+#solde{
+    margin-top: 100px;
+   tab-size: 190px;
+   color: rgb(133, 9, 9);
+}
+   #perte{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(133, 9, 9);
+}
+#mise{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+#go{
+    font-size: 100px;
+        margin-left: 650px;
+        margin-right: 550px;
+        color: rgb(133, 9, 9);
+  }
+  li{
+    display: inline-block;
+    margin: auto auto;
+    margin-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+    padding-left: 35px;
+  }
+  a{
+    text-decoration: none;
+    color: wheat;
+  }
+  a:hover{
+    background-color:rgba(250, 246, 240, 0.973);
+    color:rgba(189, 11, 11, 0.842);
+    border-radius: 20px;
+  }
+  
+ 

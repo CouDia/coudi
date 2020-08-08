@@ -1,0 +1,60 @@
+li{
+  display: inline-block;
+  margin: auto auto;
+  margin-left: 30px;
+  padding-right: 30px;
+  font-size: 35px;
+  font-weight: bold;
+  color:white;
+  padding-left: 35px;
+}
+a{
+  text-decoration: none;
+  color: wheat;
+}
+a:hover{
+  background-color:rgba(250, 246, 240, 0.973);
+  color:rgba(189, 11, 11, 0.842);
+  border-radius: 20px;
+}
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("photos/casino.jpg");
+  background-size: cover;
+  height: 50%;
+  border: 5px wheat;
+   background-position: center;
+   background-attachment: fixed;
+}
+video{
+  height:400px;
+  width: 710px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 315px;
+}
+#texte{
+  font-family: neon;
+  color: rgb(160, 11, 11);
+  float: right;
+ margin-top: 70px;
+  font-size: 4vw;
+  line-height: 1vw;
+  text-shadow: 0 0 3vw  #801125;
+  animation: texte 1s ease infinite;
+  -moz-animation: initial 1s ease infinite;
+  -webkit-animation: initial 1s ease infinite;
+margin-left: 100%;
+margin-right: 100%;
+}
+@keyframes texte {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #ebba0b;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #e6b60a;
+  }
+}
